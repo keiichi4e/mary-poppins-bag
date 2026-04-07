@@ -1,0 +1,4 @@
+interface:
+  display_name: "Linear Team Transfer"
+  short_description: "Move Linear issues and projects between teams"
+  default_prompt: "Use $linear-team-transfer to preview and execute a Linear issue or project move between teams."
