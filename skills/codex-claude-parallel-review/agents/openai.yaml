@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Claude Parallel Review"
+  short_description: "Run a weighted parallel review with Codex and Claude Code"
+  default_prompt: "Use $codex-claude-parallel-review to have Codex and Claude Code review the same diff, commit range, branch comparison, or GitHub PR in parallel, rank findings by priority, and merge the results into one evidence-backed verdict with issues sorted by weighted importance."
