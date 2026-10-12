@@ -101,3 +101,20 @@ python3 skills/linear-team-transfer/scripts/linear_team_transfer.py move-project
 - The script reads the live Linear GraphQL schema before mutating anything.
 - Issue moves can change the issue identifier and may drop cycle, team-label, or project associations.
 - Run every move once with `--dry-run` before executing it for real.
+
+## Readable Docs Skill
+
+Style and layout rules for documents other people will read (reports, test plans, Google Docs, Linear docs, email bodies): polite Japanese (desu/masu), headings capped at h2, prose for explanations, tables for comparisons, minimal bullets, emoji status markers, and fact-only reporting.
+
+- `skills/readable-docs/SKILL.md`
+
+### Use it locally
+
+Symlink the skill into the agent's skill directory:
+
+```bash
+mkdir -p ~/.claude/skills && ln -sfn "$PWD/skills/readable-docs" ~/.claude/skills/readable-docs
+ln -sfn "$PWD/skills/readable-docs" ~/.codex/skills/readable-docs
+```
+
+Start a new Claude Code or Codex session afterwards so the skill is picked up.
