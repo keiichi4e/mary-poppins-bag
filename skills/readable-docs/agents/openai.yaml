@@ -1,0 +1,4 @@
+interface:
+  display_name: "Readable Docs"
+  short_description: "Write shared documents in a readable, consistent style"
+  default_prompt: "Use $readable-docs to write or reformat this document for other people to read."
